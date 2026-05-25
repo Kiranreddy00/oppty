@@ -1,0 +1,63 @@
+body {
+    background-color: #2b7a57;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.frame {
+    background: #2b7a57;
+    padding: 20px;
+    width: 420px;
+}
+
+
+h1, legend {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+
+fieldset {
+    background: #636879;
+    border: 2px solid #999;
+    padding: 20px;
+}
+
+legend {
+    font-size: 1.5rem;
+    padding: 0 5px;
+}
+
+
+form {
+    display: flex
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+
+label {
+    width: 110px;
+    text-align: right;
+    margin-right: 15px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+input {
+    width: 180px;
+}
