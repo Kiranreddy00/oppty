@@ -1,22 +1,24 @@
 body{
-
-   background-color: rgb(209, 14, 14);
+ background-image: url("https://p.imgci.com/db/PICTURES/CMS/366600/366647.jpg");
+   /* background-color: rgb(159, 108, 108); */
 }
 container {
     max-width: 1100px;
     margin: 0 auto;
 }
-.nav-links{
+.header{
+    display: flex;
+}
+nav-links {
     display:flex;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(118, 14, 49);
     font-size: 20px;
     font-weight: bold;
-    margin-right: 20px;
-    vertical-align: middle;
     gap: 50px;
-
 }
+
+
 
     logo {
     float: left;
@@ -28,28 +30,31 @@ h1{
 
 color: aqua;
 }
-left-column {
+left {
     width: 50%;
     float: left;
     padding-right: 40px;
 }
-.right-column {
+.right {
+    display: flex;
     width: 50%;
     float: right;
     text-align: right;
+}
  p {
     font-size: 20px;
     color: #4a5568;
     line-height: 1.6;
     margin-bottom: 30px;
 }
-.btn-pink {
-    background-color: #ff3366;
-    color: rgb(27, 231, 173);
-    padding: 15px 30px;
-    font-size: 16px;
-}
+
 .hero-image {
     width: 50%;
     border-radius:30px;
+}
+.btn-pink{
+    color: blueviolet;
+}
+.container{
+    display: flex;
 }
