@@ -1,0 +1,54 @@
+body {
+  background: #3F5EFB;
+background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+  display: flex;
+  justify-content: center;
+  
+}
+.card {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 30%;
+  padding: 30px;
+  text-align: center;
+  
+}
+.btn {
+  background: #ffcc00;
+  color: #333;
+   font-weight: 500;
+  width: 100%;
+  padding: 5px ;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+.played h3 {
+  color: #008ddf;
+  font-size: 20px;
+  
+}
+.dots{
+    align-items:flex
+}
+
+.played{
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-around;
+    color: #999;
+  font-size: 20px;
+  
+}
+.name1 {
+  color: #e781a0;
+  font-size: 50px;
+}
+.name2{
+    font-size: medium;
+}
+.animal{
+    width: 100%
+    border-top-left-radius:20px;
+    border-top-right-radius:20px
+}

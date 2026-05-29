@@ -1,0 +1,28 @@
+/* * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial; } */
+/* body { background: #ccc; padding: 20px; } */
+
+
+.hotel { background: linear-gradient(135deg, #00ff87, #00e5ff); padding: 30px; border-radius: 12px; max-width: 1000px; margin: auto; }
+.kiran { background: #fff; padding: 30px; border-radius: 4px; }
+
+
+.row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 40px; }
+.bar { border-bottom: 1px solid #eee; padding-bottom: 15px; }
+.side { width: 80%; }
+
+padding: 6px 12px;
+.btn { 
+    display: flex;
+    background: none; border: 1px solid #ccc; 
+     border-radius: 12px;
+      cursor: pointer; }
+.b1 { background: #ffb703; color: #fff; border: none; }
+.kkr{
+    background-color:#ffb703
+}
+
+
+
+.card { width: 23%; border: 1px solid #eee; padding: 10px; border-radius: 8px; text-align: center; font-size: 13px; }
+.img-box { height: 100px; background: #f7f7f7; border-radius: 4px; margin-bottom: 8px; }
+.star { color: #ffb703; margin: 4px 0; }

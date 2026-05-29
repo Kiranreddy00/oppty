@@ -1,35 +1,48 @@
-body { background: #00f2fe; display: grid; 
-    place-items: center;
-     min-height: 100%; 
-     padding: 20px; }
-.page { background: #ded2d2;
+body { background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%); 
+    /* place-items: center; */
+     /* min-height: 70%;  */
+     /* padding: 20px; */
+     /* margin: 50px;
+     margin-left: 50px;
+     margin-right: 50px;
+     margin-bottom: 50px; */
+
+}
+
+/* .page { background:bisque;
      width: 100%;
     gap: 10px;
-     max-width: 1000px; 
-     padding: 20px 40px;
-      border-radius: 50px;
-    border-width: 10px ;
-border-left-width: 50px;}
+     max-width: 1000px;  */
+     
 .row { display: flex; 
     justify-content: space-between; 
     align-items: center;
      margin-bottom: 40px; }
-/* button { border-radius: 20px;
-     padding: 6px 16px; font-size: 15px; 
+button { border-radius: 20px;
+     padding: 5px 15px; font-size: 15px; 
      cursor: pointer;
-      font-weight: 600; margin-left: 5px; } */
-.food2 { background: transparent; border: 1px solid #ccc; color: #333; }
+      font-weight: 600; margin-left: 5px; }
+/* .food2 {   border: 1px solid #ccc; color: #333; } */
 .food1{ background: #ffb72b; border: radius 20px;; color: #fff; }
 nav a { text-decoration: none;
      color: #8c1d1d; 
-     margin: 5px 12px;
+     margin: 5px 15px;
       font-size: 20px;
      }
 .pics { display:flex; 
      gap: 30px; 
+     height: auto;
+     width: auto;
      
      }
-.card img { width: 10%; border-radius: 10px; }
+/* .card img { width:50%; border-radius: 10px; }
 .card h3 { font-size: 15px; margin: 5px 0 2px; }
 .card span { color: #ffb72b; font-size: 10px; }
-.card p { font-weight: 600; color: #111; }
+.card p { font-weight: 600; color: #111; } */
+.btn{
+     background-color:#ffb72b
+}
+.b{
+     background-color:#ffb72b
+}
