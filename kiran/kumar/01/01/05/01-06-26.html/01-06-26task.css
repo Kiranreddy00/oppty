@@ -1,0 +1,25 @@
+body {
+    background-color: #d1ebe2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.kkr
+    background-color: #e8f7f2; 
+    padding: 40px;
+    border-radius: 8px;
+}
+
+
+.id-card {
+    width: 550px;
+    height: 350px;
+    background-color: #ffffff;
+    border: 2px solid #a3e1cb;
+    border-radius: 25px;
+    overflow: hidden; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.
