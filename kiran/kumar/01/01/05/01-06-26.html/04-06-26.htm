@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Small Display Example</title>
+    <link rel="stylesheet" href="04-06-26.css">
+</head>
+<body>
+
+    <!-- Block, Inline, Inline-Block, None -->
+    <div class="box block">Block (Full Width)</div>
+    <span class="box inline">Inline 1</span>
+    <span class="box inline">Inline 2</span>
+    <div class="box inline-block">Inline-Block</div>
+    <div class="box none">You can't see me</div>
+
+    <hr>
+
+    <!-- List-item -->
+    <div class="list-item">List Item 1</div>
+    <div class="list-item">List Item 2</div>
+
+    <hr>
+
+    <!-- Table Layout -->
+    <div class="table">
+        <div class="row">
+            <div class="cell">Cell 1</div>
+            <div class="cell">Cell 2</div>
+        </div>
+        <!-- Collapse hides this row completely from the table structure -->
+        <div class="row collapse">
+            <div class="cell">Hidden Cell</div>
+            <div class="cell">Hidden Cell</div>
+        </div>
+        <div class="row">
+            <div class="cell">Cell 3</div>
+            <div class="cell">Cell 4</div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Visibility Hidden vs Layout Space -->
+    <div class="flex">
+        <div class="box">Box A</div>
+        <div class="box hidden">Box B (Hidden but leaves a gap)</div>
+        <div class="box">Box C</div>
+    </div>
+
+    <hr>
+
+    <!-- Flexbox (Row Axis Layout) -->
+    <div class="flex-layout">
+        <div class="flex-item">Flex 1</div>
+        <div class="flex-item">Flex 2</div>
+    </div>
+
+    <hr>
+
+    <!-- Grid (2D Grid Layout) -->
+    <div class="grid-layout">
+        <div class="grid-item">Grid 1</div>
+        <div class="grid-item">Grid 2</div>
+        <div class="grid-item">Grid 3</div>
+        <div class="grid-item">Grid 4</div>
+    </div>
+
+</body>
+</html>

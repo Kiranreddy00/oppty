@@ -1,0 +1,45 @@
+/* Core element helpers */
+.box {
+    background: #3498db;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* 1. Display types */
+.block { display: block; }
+.inline { display: inline; }
+.inline-block { display: inline-block; width: 100px; }
+.none { display: none; }
+
+/* 2. List & Table */
+.list-item { display: list-item; margin-left: 20px; }
+
+.table { display: table; width: 100%; border-spacing: 5px; }
+.row { display: table-row; }
+.cell { display: table-cell; background: #e74c3c; color: white; padding: 5px; }
+
+/* 3. Visibility */
+.hidden { visibility: hidden; }
+.collapse { visibility: collapse; } /* Specifically shrinks table rows */
+
+/* 4. Flexbox (Align items in a straight row line) */
+.flex { display: flex; }
+
+.flex-layout {
+    display: flex;
+    justify-content: space-between;
+    background: #f1c40f;
+    padding: 10px;
+}
+.flex-item { background: #9b59b6; color: white; padding: 10px; }
+
+/* 5. Grid (Align items into columns and rows) */
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 5px;
+    background: #34495e;
+    padding: 10px;
+}
+.grid-item { background: #1abc9c; color: white; padding: 10px; text-align: center; }
