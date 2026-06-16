@@ -1,0 +1,393 @@
+/* Universal Reset & Typography */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Utilities & Structural Containers */
+.delhi {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.page-margin {
+    margin-top: 30px;
+}
+
+/* Accessibility Top Utility Bar */
+.mumbai {
+    background-color: #222;
+    color: #fff;
+    font-size: 0.85rem;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mumbai a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Primary Navigation Bar Container */
+header {
+    background-color: #f37022; 
+    color: white;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.kolkata {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.chennai {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.chennai h1 {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+/* Standard Clean Navbar Styling via Simple Classes */
+#main-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 4px 0;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid white;
+}
+
+/* Hero Section / Main Banner */
+.bengaluru {
+    position: relative;
+    background-color: #111;
+    color: white;
+    overflow: hidden;
+    height: 450px;
+}
+
+.bengaluru img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.hyderabad {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.9));
+    padding: 40px 20px;
+}
+
+.ahmedabad {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ahmedabad h2 {
+    font-size: 2.2rem;
+    max-width: 800px;
+    text-transform: uppercase;
+}
+
+
+.pune {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    position: relative;
+    padding-bottom: 10px;
+    color: #222;
+}
+
+.pune::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 4px;
+    background-color: #f37022;
+}
+
+.jaipur {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+
+.lucknow {
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    border: 1px solid #eee;
+}
+
+.kanpur {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    background-color: #ddd;
+}
+
+.nagpur {
+    padding: 15px;
+}
+
+.indore {
+    color: #f37022;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.thane {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #111;
+}
+
+.bhopal {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+
+.patna {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.vadodara {
+    display: inline-block;
+    background-color: #f37022;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.governance-card {
+    background: #fff; 
+    padding: 30px; 
+    border-radius: 6px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.quote-text {
+    margin: 15px 0; 
+    font-style: italic; 
+    color: #555;
+}
+
+.profile-highlight {
+    font-size: 1.2rem; 
+    font-weight: 600; 
+    color: #f37022; 
+    margin-bottom: 15px;
+}
+
+
+.ghaziabad {
+    margin-bottom: 20px;
+}
+
+.ghaziabad label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.ludhiana {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+textarea.ludhiana {
+    resize: vertical;
+    height: 150px;
+}
+
+.interact-grid-override {
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); 
+    margin-bottom: 40px;
+}
+
+.interact-card-padding {
+    padding: 25px;
+}
+
+.interact-title {
+    color: #f37022; 
+    margin-bottom: 10px;
+}
+
+.interact-desc {
+    margin-bottom: 15px; 
+    color: #555;
+}
+
+.form-container {
+    background: white; 
+    padding: 30px; 
+    border-radius: 6px; 
+    border: 1px solid #eee; 
+    max-width: 700px; 
+    margin: 0 auto;
+}
+
+.form-header {
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+.form-submit-btn {
+    width: 100%;
+}
+
+
+.rajkot { 
+    display: flex; 
+    gap: 40px; 
+    margin-top: 20px; 
+    align-items: flex-start; 
+}
+
+.surat { 
+    flex: 2; 
+}
+
+.srinagar { 
+    flex: 1; 
+    background: #fff; 
+    padding: 20px; 
+    border-radius: 6px; 
+    border: 1px solid #eee; 
+}
+
+.srinagar h3 {
+    border-bottom: 2px solid #222; 
+    padding-bottom: 5px; 
+    margin-bottom: 15px;
+}
+
+.former-pms-list {
+    list-style-type: square; 
+    padding-left: 20px; 
+    font-size: 0.95rem;
+}
+
+.former-pms-list li {
+    margin-bottom: 8px;
+}
+
+@media(max-width: 768px) { 
+    .rajkot { 
+        flex-direction: column; 
+    } 
+}
+
+
+footer {
+    background-color: #111;
+    color: #aaa;
+    padding: 40px 20px;
+    margin-top: 60px;
+    border-top: 5px solid #f37022;
+}
+
+.agra {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.nashik {
+    flex: 2;
+    min-width: 300px;
+}
+
+.footer-desc {
+    margin-top: 10px;
+}
+
+.faridabad {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-links-list {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.footer-links-list li {
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    background: transparent;
+    border: none;
+    color: #ccc;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 2px 0;
+}
+
+.meerut {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #222;
+    font-size: 0.85rem;
+}
+

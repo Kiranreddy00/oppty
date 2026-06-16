@@ -1,0 +1,140 @@
+body {
+  background-color: #f0f4f8;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+  color: #111;
+}
+.mumbai {
+  background-color: #0b1528;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  color: white;
+}
+.mumbai .logo { font-weight: bold; letter-spacing: 1px; }
+.mumbai .links a {
+  color: #ccc;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.mumbai .links a.active { color: #ffeb3b; border-bottom: 2px solid #ffeb3b; padding-bottom: 4px; }
+
+.delhi {
+  background-color: #f3e8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 20px;
+}
+.delhi .hero-avatar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+}
+.delhi .hero-text { max-width: 400px; }
+.delhi .hero-text h1 { font-size: 2rem; color: #111; }
+.delhi .hero-text h3 { color: #7c3aed; margin: 5px 0 10px; font-weight: 500; }
+.delhi .hero-text p { color: #555; font-size: 0.9rem; line-height: 1.4; }
+
+.btn {
+  background-color: #4c1d95;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 10px;
+}
+.btn-sm {
+  background-color: #4c1d95;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 10px;
+}
+.bengaluru {
+  background-color: #f7fee7;
+  padding: 40px 50px;
+}
+.bengaluru .skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.bengaluru .skill-card {
+  background: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  font-size: 0.85rem;
+}
+.kolkata {
+  background-color: #fefce8;
+  padding: 40px 50px;
+}
+.kolkata .projects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.kolkata .project-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  width: 240px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.kolkata .project-card img { width: 100%; border-radius: 4px; }
+.kolkata .project-card h3 { font-size: 1rem; margin: 12px 0 6px; }
+.kolkata .project-card p { font-size: 0.8rem; color: #666; margin-bottom: 12px; height: 35px; }
+
+.chennai {
+  background-color: #ecfeff;
+  padding: 40px 20px;
+}
+.chennai .contact-form {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  gap: 10px;
+  align-items: center;
+}
+.chennai input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 10px;
+}
+.chennai .btn { margin-top: 0; white-space: nowrap; }
+
+.hyderabad {
+  background-color: #0b1528;
+  color: #999;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  font-size: 0.75rem;
+  align-items: center;
+}
+.hyderabad .socials span { margin-left: 10px; color: white; cursor: pointer; }
